@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="10dp"
+    app:cardElevation="15dp">
+    
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="10dp"
+        android:background="#AA0000">
+
+        <TextView
+            android:id="@+id/cart_material_name"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:text="Назва матеріалу"
+            android:textColor="@color/white"
+            android:textSize="14dp"
+            android:layout_marginLeft="5dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/cart_material_amount"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:text="Метраж матеріалу"
+            android:textColor="@color/white"
+            android:textSize="14dp"
+            android:layout_marginLeft="5dp"
+            android:layout_alignParentEnd="true"
+            android:textAlignment="viewEnd"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/cart_material_price"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ціна матеріалу"
+            android:textColor="@color/white"
+            android:textSize="14dp"
+            android:textStyle="bold"
+            android:layout_below="@id/cart_material_amount"
+            android:gravity="center"
+            android:layout_marginTop="10dp"/>
+
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

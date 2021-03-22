@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".Admin.AdminAddNewMaterialActivity">
+
+    <ImageView
+        android:id="@+id/select_material_image"
+        android:layout_width="350dp"
+        android:layout_height="300dp"
+        android:cropToPadding="false"
+        android:scaleType="centerCrop"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/camera"
+        android:layout_marginTop="10dp"
+        />
+
+    <EditText
+        android:id="@+id/material_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/select_material_image"
+        android:inputType="textMultiLine|textCapWords|textCapSentences"
+        android:layout_marginTop="20dp"
+        android:padding="20dp"
+        android:hint="Назва матеріалу..."
+        android:textColorHint="@color/white"
+        android:layout_marginLeft="45dp"
+        android:layout_marginRight="45dp"
+        android:textColor="@color/white"
+        android:background="@drawable/input_design"
+        />
+
+    <EditText
+        android:id="@+id/material_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/material_name"
+        android:inputType="textMultiLine|textCapSentences"
+        android:layout_marginTop="6dp"
+        android:padding="20dp"
+        android:hint="Опис матеріалу..."
+        android:textColorHint="@color/white"
+        android:layout_marginLeft="45dp"
+        android:layout_marginRight="45dp"
+        android:textColor="@color/white"
+        android:background="@drawable/input_design"
+        />
+
+    <TextView
+        android:id="@+id/material_category"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/material_description"
+        android:layout_marginLeft="45dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginRight="45dp"
+        android:background="@drawable/input_design"
+        android:drawableRight="@drawable/ic_baseline_keyboard_arrow_down_24"
+        android:hint="Категорія матеріалу..."
+        android:inputType="textMultiLine|textCapWords"
+        android:padding="20dp"
+        android:textColor="@color/white"
+        android:textSize="18dp"
+        android:textColorHint="@color/white" />
+
+    <EditText
+        android:id="@+id/material_price"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/material_category"
+        android:inputType="numberDecimal"
+        android:layout_marginTop="6dp"
+        android:padding="20dp"
+        android:hint="Ціна матеріалу..."
+        android:textColorHint="@color/white"
+        android:layout_marginLeft="45dp"
+        android:layout_marginRight="45dp"
+        android:textColor="@color/white"
+        android:background="@drawable/input_design"
+        />
+
+    <Button
+        android:id="@+id/add_new_material"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/material_price"
+        android:text="Додати матеріал"
+        android:layout_marginLeft="45dp"
+        android:layout_marginRight="45dp"
+        android:padding="17dp"
+        android:layout_marginTop="20dp"
+        android:textSize="18sp"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:background="@drawable/buttons"
+        />
+</RelativeLayout>

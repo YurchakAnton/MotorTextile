@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "537539355927",
+    "firebase_url": "https://motortextile-e9683-default-rtdb.firebaseio.com",
+    "project_id": "motortextile-e9683",
+    "storage_bucket": "motortextile-e9683.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:537539355927:android:40231b3572971577d7c352",
+        "android_client_info": {
+          "package_name": "mt.example.motortextile"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "537539355927-7im2fjtleungb1dia4qvf1u55srolv0c.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "mt.example.motortextile",
+            "certificate_hash": "bdb2f6a19626450db3d72cf258033860aef3a762"
+          }
+        },
+        {
+          "client_id": "537539355927-sckgmb1v3oq6ojn11475p91lt3vsgcgo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB-Kn4NoBGRIZcSRbtMKOIu-nAfre8j6Xc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "537539355927-sckgmb1v3oq6ojn11475p91lt3vsgcgo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
